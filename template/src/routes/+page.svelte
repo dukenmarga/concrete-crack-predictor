@@ -207,7 +207,13 @@
                                     <Separator class="my-4" />
 
                                     <Label for="name">Limitation</Label><br>
-                                        Thin/small cracks may not be detected.
+                                    Thin/small cracks may not be detected.
+                                    <Separator class="my-4" />
+
+                                    <Label for="name">Icon</Label><br>
+                                    <a href="https://www.flaticon.com/free-icons/3d-cube" title="3d cube icons">
+                                        3d cube icons created by Freepik - Flaticon
+                                    </a>
                                 </Card.Content>
                             </Card.Root>
                         </Tabs.Content>
