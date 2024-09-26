@@ -21,6 +21,13 @@ def resources(path: str):
     return "Resource not found", 500
 
 
+@app.route("/favicon.png")
+def icon():
+    if app.static_folder:
+        return current_app.send_static_file("favicon.png")
+    return "Resource not found", 500
+
+
 @app.route("/")
 def index():
     if app.static_folder:
